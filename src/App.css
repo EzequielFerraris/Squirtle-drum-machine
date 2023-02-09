@@ -2,15 +2,36 @@
   margin: 0;
   padding: 0%;
   width: 100%;
-  height: 100%;
+  height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
+  justify-content: top;
+  background-color: #E8DFC8;
+}
+
+#squirtle1 {
+  max-height: 380px;
+  position: absolute;
+  left: 8rem;
+  bottom: 1rem;
+  transform: scaleX(-1);
+  z-index: 0;
+}
+
+#squirtle2 {
+  max-height: 380px;
+  position: absolute;
+  right: 8rem;
+  bottom: 1rem;
+  z-index: 0;
 }
 
 /*
 COLORS
-
-
+celeste #83BCCA
+azul #6BA4B4
+cap abajo #E8DFC8
+cap arriba #AA7869
+ojo #B46D8B
 */

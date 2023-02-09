@@ -1,4 +1,4 @@
-const firstSoundsGroup = [
+const sounds1 = [
     {
       keyCode: 81,
       key: 'Q',
@@ -55,7 +55,7 @@ const firstSoundsGroup = [
     }
   ];
 
-const secondSoundsGroup = [
+const sounds2 = [
     {
       keyCode: 81,
       key: 'Q',
@@ -111,3 +111,5 @@ const secondSoundsGroup = [
       url: 'https://s3.amazonaws.com/freecodecamp/drums/Brk_Snr.mp3'
     }
   ];
+
+export {sounds1, sounds2};
