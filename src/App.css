@@ -7,7 +7,7 @@
   flex-direction: column;
   align-items: center;
   justify-content: top;
-  background-color: #E8DFC8;
+  background-color: #83BCCA;
 }
 
 #squirtle1 {
@@ -25,6 +25,17 @@
   right: 8rem;
   bottom: 1rem;
   z-index: 0;
+}
+
+@media screen and (max-width: 859px) {
+
+  #squirtle1 {display:none;}
+  #squirtle2 {
+    position: relative;
+    right: 0;
+    bottom: 0;
+  }
+
 }
 
 /*

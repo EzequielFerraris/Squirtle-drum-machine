@@ -6,8 +6,8 @@ import squirtle from './images/squirtle.png';
 function App() {
 
   return (
-    <div className="App">
-      <div>
+    <div className="App" id="drum-machine">
+      <DrumMachine />  
       <img
       id = "squirtle1"
       alt= "squirtle1"
@@ -16,8 +16,6 @@ function App() {
       id = "squirtle2"
       alt= "squirtle2"
       src={squirtle} />
-      </div>    
-      <DrumMachine />  
     </div>
   );
 }

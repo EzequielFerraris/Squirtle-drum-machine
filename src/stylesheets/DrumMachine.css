@@ -1,23 +1,17 @@
-
 button {
-    height: 39px;
-    display: flex;
-    flex: 1 1;
-    justify-content: center;
-    align-items: center;
+    display: grid;
     font-weight: bold;
     font-size: 1rem;
-    background-color: #1b1b32;
+    background-color: #B46D8B;
     color: white;
-    border-radius: 25px;
+    border-radius: 10px;
     border: 2px solid white;
-    margin: 4px;
     cursor: pointer;
     user-select: none;
 }
 
-button:hover{
-    background-color: #5a01a7
+button:hover {
+    background-color: black
   }
 
 .main-container {
@@ -27,7 +21,7 @@ button:hover{
   margin-top: 10vh;
   display: flex;
   flex-direction: column;
-  background-color: #83BCCA;
+  background-color: #E8DFC8;
   border-radius: 20px;
   border: 5px solid #AA7869;
   box-shadow: 0 3px 13px 1px rgb(0 0 0 / 9%);
@@ -36,22 +30,48 @@ button:hover{
 
 .buttons-container {
   width: 100%;
-  height: 50%;
   box-sizing: border-box;
   padding: 0;
   margin: 0;
-  display: flex;
-  flex-wrap: wrap;
-  align-items: center;
-  justify-content: center;
-  background-color: #83BCCA;
+  display: grid;
+  gap: 10px;
+  grid-template-columns: 1fr 1fr 1fr;
+  background-color: #E8DFC8;
 }
 
 .controlers-container {
   width: 100%;
-  height: 50%;
+  height: 70%;
   display: flex;
   flex-wrap: wrap;
-  flex-direction: row;
-  background-color: #83BCCA;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #E8DFC8;
 }
+
+#display {
+  height: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+  font-size: 1.3rem;
+  margin: 4px;
+  user-select: none;
+}
+
+#toggle {
+  width: 50%;
+  height: 2rem;
+  align-items: center;
+}
+
+/*
+COLORS
+celeste #83BCCA
+azul #6BA4B4
+cap abajo #E8DFC8
+cap arriba #AA7869
+ojo #B46D8B
+*/
