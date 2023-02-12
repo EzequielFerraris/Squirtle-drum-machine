@@ -1,5 +1,4 @@
 import './App.css';
-import React, { useState } from 'react';
 import DrumMachine from './components/DrumMachine.js';
 import squirtle from './images/squirtle.png';
 
