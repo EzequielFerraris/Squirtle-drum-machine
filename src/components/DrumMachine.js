@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import '../stylesheets/DrumMachine.css';
-import {sounds1, sounds2 } from './sounds.js';
+import { sounds1, sounds2 } from './sounds.js';
 import VolumeControl from "./VolumeControl";
 
 function DrumMachine() {
@@ -10,7 +10,7 @@ function DrumMachine() {
     const [volume, setVolume] = useState(1);
 
     const changeSounds = () => {
-        if(sounds1 == soundsState) {
+        if(sounds1 === soundsState) {
             setSounds(sounds2);
             setFeaturing("Keyboard set nº2");
         }
